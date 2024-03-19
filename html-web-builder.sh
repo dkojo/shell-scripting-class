@@ -1,5 +1,9 @@
 #!/bin/bash
 
+# Author: info@ityourway.tech
+
+# Description: Shell script to automate the process of configuring a simple HTML Website 
+
 # Function to detect the Linux distribution
 detect_distribution() {
     if [ -f /etc/centos-release ]; then
