@@ -86,9 +86,6 @@ else
     exit 1
 fi
 
-# Add a simple HTML page with an embedded image
-#echo "<html><body><h2>$MESSAGE</h2></body></html>" | sudo tee /var/www/html/index.html
-
 sudo mkdir ~/html-template
 
 sudo rm -rf ~/html-template/*
