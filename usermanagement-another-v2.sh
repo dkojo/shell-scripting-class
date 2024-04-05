@@ -2,7 +2,7 @@
 
 read -p "Input the new group Name to Create: " usergroup
 read -p "Input the new user name to Create: " username
-read -p "Input the Ful Name of the New User: " full_name
+read -p "Input the Full Name of the New User: " full_name
 read -p "Input the Shell to be assigned to the New User: " shell
 read -p "Input the group id to be assigned to the new group: " group_id
 existing_group=`cat /etc/group | grep $usergroup | awk -F ":" '{print $1}'`
